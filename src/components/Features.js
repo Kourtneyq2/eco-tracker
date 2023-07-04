@@ -9,21 +9,21 @@ export const Features = () => {
       <Typography component="h2" variant="h3">Features</Typography>
       <div className="features-container">
         <div className="feature">
-          <h3>Vehicle Emissions</h3>
+          <Typography component="h3" variant="h3">Vehicle Emissions</Typography>
           <p>
             Calculate the carbon footprint of different types of vehicles, from
             cars to motorcycles.
           </p>
         </div>
         <div className="feature">
-          <h3>Flight Emissions</h3>
+          <Typography component="h3" variant="h3">Flight Emissions</Typography>
           <p>
             Estimate the carbon emissions from your flights, whether they're
             domestic or international.
           </p>
         </div>
         <div className="feature">
-          <h3>Distance-Based Calculation</h3>
+          <Typography component="h3" variant="h3">Distance-Based Calculation</Typography>
           <p>
             Enter a distance to calculate the CO2e of your carbon footprint.
             Ideal for planning trips and journeys.
