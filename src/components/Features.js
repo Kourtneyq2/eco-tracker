@@ -8,7 +8,7 @@ export const Features = () => {
     
     <Container className="features-section">
       <Typography component="h2" variant="h3">Features</Typography>
-      <Stack className="features-container">
+      <Stack direction="row" spacing={2} className="features-container">
         <div className="feature">
           <Typography component="h3" variant="h3">Vehicle Emissions</Typography>
           <p>
