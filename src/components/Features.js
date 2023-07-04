@@ -1,11 +1,12 @@
 import React from "react";
 import "../index.css";
+import Container from "@mui/material/Container";
 
 export const Features = () => {
   return (
     
-    <div className="features-section">
-      <h2>Features</h2>
+    <Container className="features-section">
+      <Typography component="h2" variant="h3">Features</Typography>
       <div className="features-container">
         <div className="feature">
           <h3>Vehicle Emissions</h3>
@@ -29,6 +30,6 @@ export const Features = () => {
           </p>
         </div>
       </div>
-    </div>
+    </Container>
   );
 };
