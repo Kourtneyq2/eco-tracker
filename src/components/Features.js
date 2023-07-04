@@ -1,13 +1,13 @@
 import React from "react";
 import "../index.css";
-import Container from "@mui/material/Container";
+import Stack from "@mui/material/Stack";
 
 export const Features = () => {
   return (
     
     <Container className="features-section">
       <Typography component="h2" variant="h3">Features</Typography>
-      <div className="features-container">
+      <Stack className="features-container">
         <div className="feature">
           <Typography component="h3" variant="h3">Vehicle Emissions</Typography>
           <p>
@@ -29,7 +29,7 @@ export const Features = () => {
             Ideal for planning trips and journeys.
           </p>
         </div>
-      </div>
+      </Stack>
     </Container>
   );
 };
